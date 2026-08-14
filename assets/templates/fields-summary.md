@@ -227,7 +227,7 @@
                 "sub_type": "seal"
               }
             ],
-            "markdown_content": "尚的。(签名)招标人或其招标代理机构主要负责人 (项目负责人)\n\n招标人或其招标代理机构:\n\n![](images/image_1_seal_0.jpg)"
+            "markdown_content": "这是示例页面的Markdown内容。此处为普通文本"
           }
         }
       ]
