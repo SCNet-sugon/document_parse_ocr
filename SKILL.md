@@ -19,7 +19,7 @@ dependencies:
 input:
   - ocrType: 识别类型（可选，目前仅支持 DOC_PARSING）
   - fileUrl: 公网可访问的文件下载地址（URL）
-output: 结构化的 JSON 数据，包含文档解析结果（文本、表格、图表、印章、Markdown 内容等），具体字段定义见 fields-summary.md。
+output: 结构化的 JSON 数据，包含文档解析结果（文本、表格、图表、Markdown 内容等），具体字段定义见 fields-summary.md。
 ---
 
 # Sugon-Scnet 文档智能 OCR 技能
@@ -31,7 +31,7 @@ output: 结构化的 JSON 数据，包含文档解析结果（文本、表格、
 - **异步处理**：适用于大批量文档，无需长时间等待同步响应
 - **结构化解析**：自动识别文档中的段落、标题、表格、图表、公式、页眉页脚、脚注及其他图形元素
 - **结果下载**：任务成功后返回结果文件的临时下载地址（有效期为 12 小时）
-- **Markdown 输出**：自动生成整页的 Markdown 内容，并映射图片/印章路径
+- **Markdown 输出**：自动生成整页的 Markdown 内容，并映射图片路径
 
 ## 前置配置
 

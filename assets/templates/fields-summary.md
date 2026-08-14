@@ -176,7 +176,7 @@
   "documents": [
     {
       "documentId": "task-20250506-7643_0",
-      "fileName": "招标公告.pdf",
+      "fileName": "示例文档.pdf",
       "datas": [
         {
           "rotate_angle": 0,
@@ -244,4 +244,4 @@
 
 - `Markdown 中的图片映射路径为 images/xxx.jpg，需结合 md.images 数组中的信息进行替换或提取。`
 
-- `印章识别结果中的 lines 数组可能包含多个文本行，每个文本行包含多边形坐标和文本内容。`
+- `识别结果中的 lines 数组可能包含多个文本行，每个文本行包含多边形坐标和文本内容。`
